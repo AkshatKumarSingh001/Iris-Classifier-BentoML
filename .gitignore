@@ -1,0 +1,35 @@
+# Virtual environment
+myenv/
+venv/
+.env/
+.env
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# BentoML / model artifacts
+.bentoml/
+*.bento/
+models/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and local runtime files
+*.log
+*.sqlite3
+
+# Docker local cache (optional)
+.docker/
